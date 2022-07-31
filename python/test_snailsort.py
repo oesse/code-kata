@@ -1,14 +1,6 @@
 from snailsort import snail
 
 
-# def test_foo():
-#     print([x for x in move_right(0, 0, 3)])
-#     print([x for x in move_down(0, 3, 3)])
-#     print([x for x in move_left(3, 3, 0)])
-#     print([x for x in move_up(3, 0, 0)])
-
-
-
 def test_snail_0x0():
     array = [[]]
     assert [] == snail(array)
